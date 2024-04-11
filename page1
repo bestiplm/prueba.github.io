@@ -1,0 +1,60 @@
+<html lang="es">
+<head>
+      <title> EJERCICIO 22 ENE 2024 </title>
+</head>
+<body>
+    <body background="C:\Users\invitado_1\OneDrive\Escritorio\images\Textura piedra end.jpg">
+
+        <CENTER>  <!--La etiqueta CENTER se utiliza para centrar lo que se encuentra dentro de ella. -->
+
+            <P style=font-size:500%>Guia mobs del "END" </P> <!--Con el parámetro front-size se puede establecer el tamaño de fuente. -->
+            <img src="C:\Users\invitado_1\OneDrive\Escritorio\images\Minecraft Gif Sticker - Minecraft Gif Mc - Discover & Share GIFs.gif" width="10%">
+        </CENTER>  
+        
+        
+        
+        
+        <LEFT><H1>Informacion general de la dimensión del end</H1>
+            <H2>El "End" es una dimensión alternativa en el popular videojuego Minecraft. Es un mundo oscuro y vacío, lleno de islas flotantes de piedra llamadas "islas del End" y habitado principalmente por el temible Dragón del End y los Endermen, criaturas altas y delgadas que se teletransportan y son hostiles al jugador.</H2>
+        </LEFT>
+    <p style="font-size : 500%">Lista de los mobs que puedes encontrar en esta dimension hasta la version 1.20:</p>
+   <img src="C:\Users\invitado_1\OneDrive\Escritorio\images\Endermannnn.gif" width="25%"> <a href="https://www.minecraft.net/es-es"><img src="C:\Users\invitado_1\OneDrive\Escritorio\images\enchanting table.gif" width="13%"></a><img src="C:\Users\invitado_1\OneDrive\Escritorio\images\stats.gif" width="13%">
+   
+   <br><img src="C:\Users\invitado_1\OneDrive\Escritorio\images\Shulker_shooting.webp" width="25%"><a href="https://www.minecraft.net/es-es"><img src="C:\Users\invitado_1\OneDrive\Escritorio\images\enchanting table.gif" width="10%" ></a><img src="C:\Users\invitado_1\OneDrive\Escritorio\images\stats.gif" width="10%">
+   <br><img src="C:\Users\invitado_1\OneDrive\Escritorio\images\endermite 1.webp" width="25%"><a href="https://www.minecraft.net/es-es"><img src="C:\Users\invitado_1\OneDrive\Escritorio\images\enchanting table.gif" width="10%"></a><img src="C:\Users\invitado_1\OneDrive\Escritorio\images\stats.gif" width="10%">
+   <br><img src="C:\Users\invitado_1\OneDrive\Escritorio\images\enderdragon gif.webp" width="25%"><a href="https://www.minecraft.net/es-es"><img src="C:\Users\invitado_1\OneDrive\Escritorio\images\enchanting table.gif" with="15%"></a><img src="C:\Users\invitado_1\OneDrive\Escritorio\images\stats.gif" width="15%">
+
+
+
+</head>
+
+
+<table>
+    <tr>
+        <th>Nombre</th>
+        <th>Imagen</th>
+    </tr>
+    <tr>
+        <td>Imagen 1</td>
+        <td class="img-container">
+            <img id="imagen" src="imagen1.jpg" alt="Imagen 1">
+        </td>
+    </tr>
+</table>
+
+<p>Haz clic en el enlace para cambiar la imagen:</p>
+<button onclick="cambiarImagen()">Cambiar Imagen</button>
+
+<script>
+    function cambiarImagen() {
+        var imagen = document.getElementById("imagen");
+        imagen.src = "c:\Users\Angel Mora\OneDrive\Escritorio\imagenes para proyectos zubia\enderman fase 1.png"; // Cambia "nueva_imagen.jpg" por la ruta de la nueva imagen que desees mostrar
+        imagen.alt = "Nueva Imagen"; // Cambia "Nueva Imagen" por el texto alternativo de la nueva imagen
+    }
+</script>
+
+
+
+
+
+</body>
