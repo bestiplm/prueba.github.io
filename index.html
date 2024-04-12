@@ -1,6 +1,7 @@
 <html lang="es">
 <head>
       <title> EJERCICIO 22 ENE 2024 </title>
+      <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <body background="C:\Users\invitado_1\OneDrive\Escritorio\images\Textura piedra end.jpg">
@@ -43,27 +44,38 @@
 <table>
     <tr>
         <th>Nombre</th>
-        <th>Imagen</th>
+        <th>Fase</th>
     </tr>
     <tr>
-        <td>Imagen 1</td>
-        <td class="img-container">
-            <img id="imagen" src="imagen1.jpg" alt="Imagen 1">
+        <td>Enderman</td> 
+        <td>Fase</td>
+    </tr>
+    <tr>
+        <td id="nombre">Enderman </td>
+        <td class="img-container"> 
+            <img id="imagen" src="./img/600px-Enderman.png" alt="Imagen 1">
         </td>
     </tr>
 </table>
 
 <p>Haz clic en el enlace para cambiar la imagen:</p>
-<button onclick="cambiarImagen()">Cambiar Imagen</button>
-
+<button id="boton" onclick="cambiarImagen()">Cambiar fase</button> <!-- Cambiado -->
 <script>
     function cambiarImagen() {
         var imagen = document.getElementById("imagen");
-        imagen.src = "img/600px-Enderman.png"; // Cambia "nueva_imagen.jpg" por la ruta de la nueva imagen que desees mostrar
-        imagen.alt = "img/Enderman_Screaming.gif"; // Cambia "Nueva Imagen" por el texto alternativo de la nueva imagen
+        if (imagen.src.match("600px-Enderman.png")) {
+            imagen.src = "img/Enderman_Screaming.gif"; // Cambia "nueva_imagen.jpg" por la ruta de la nueva imagen que desees mostrar
+            imagen.alt = "imagen"; // Cambia "Nueva Imagen" por el texto alternativo de la nueva imagen
+            nombre.textContent = "Alerta"; // Cambiado
+            boton.textContent = "Restaurar imagen"; // Cambiado
+        } else {
+            imagen.src = "img/600px-Enderman.png"; // Restaura la imagen original
+            imagen.alt = "Imagen 1"; // Restaura el texto alternativo original
+            nombre.textContent = "Neutral"; // Restaura el texto del nombre
+            boton.textContent = "Cambiar fase"; // Cambiado
+        }
     }
 </script>
-
 <a href="./index2.html">hi</a>
 
 
